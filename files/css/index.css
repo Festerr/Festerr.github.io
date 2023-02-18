@@ -4,4 +4,6 @@ body{
 ul{
     list-style-type: none;
     list-style-position: inherit;
+    margin: 0;
+    padding: 0;
 }
