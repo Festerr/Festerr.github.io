@@ -6,9 +6,16 @@ ul{
 }
 li{
     float: left;
+    border-right: 1px solid #bbb;
 }
-a {
+a{
     display: block;
     padding: 8px;
-    background-color: lightskyblue;
-  }
+    background-color: lightblue;
+}
+li:last-child {
+    border-right: none;
+}
+.active {
+    background-color: skyblue;
+}
