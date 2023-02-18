@@ -1,0 +1,11 @@
+span {
+    color: red ;
+}
+p {
+    color: grey;
+    font-style: italic;
+    font-size: small;
+}
+body {
+    background-color: aliceblue;
+}
