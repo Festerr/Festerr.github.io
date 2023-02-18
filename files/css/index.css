@@ -19,3 +19,6 @@ li:last-child {
 .active {
     background-color: skyblue;
 }
+h1{
+    background-image: url(../images/WHAT-IS-WEB-DESIGN.png);
+}
