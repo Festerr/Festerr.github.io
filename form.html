@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        span {
+            color: red ;
+        }
+        p {
+            color: grey;
+            font-style: italic;
+            font-size: small;
+        }
+        body {
+            background-color: antiquewhite;
+        }
+    </style>
+    <head>
+        <title>Formulaire de contact</title>
+    </head>
+    <body>
+        <h1>Contacter-nous</h1>
+        <hr>
+        <form name="test-form" netlify>
+            Nom et prénom<span>*</span> <br><input type="text" name="full_name" required><br>
+            Adress e-mail<span>*</span> <br><input type="email" name="e-mail" required><br>
+            Numéro de telephone <br><input type="tel" name="num_tele"><br>
+            Sujet<span>*</span> <br><input type="text" name="subject" required><br>
+            Message<span>*</span> <br><textarea rows = "5" cols = "50" name = "message" required></textarea><br>
+            <p>Les champs avec <span>*</span> son obligatoires</p>
+            <button value="Submit">Envoyer</button>
+        </form>
+    </body>
+</html>
