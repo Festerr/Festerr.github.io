@@ -20,5 +20,5 @@ li:last-child {
     background-color: skyblue;
 }
 h1{
-    background-image: url(../images/WHAT-IS-WEB-DESIGN.png);
+    background-image: url(../images/WHAT-IS-WEB-DESIGN.png);width: 100%;height: 100%;
 }
