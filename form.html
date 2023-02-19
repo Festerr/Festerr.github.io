@@ -4,7 +4,7 @@
         <title>Contact</title>
         <link rel="stylesheet" href="files/css/form.css">
     </head>
-    <body>
+    <body id="form">
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="form.html" class="active">Contact</a></li>
@@ -20,8 +20,8 @@
             e-mail<span>*</span> <br><input type="email" name="e-mail" required><br>
             Number<br><input type="tel" name="num_tele"><br>
             Subject<span>*</span> <br><input type="text" name="subject" required><br>
-            Message<span>*</span> <br><textarea rows = "5" cols = "50" name = "message" required></textarea><br>
-            <p>Fields with a <span>*</span> are required</p>
+            Message<span>*</span> <br><textarea id="textarea" rows = "5" cols = "50" name = "message" required></textarea><br>
+            <p id="rule">Fields with a <span>*</span> are required</p>
             <button value="Submit">Submit</button>
         </form>
     </body>

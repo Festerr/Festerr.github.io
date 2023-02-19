@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Welcome to my website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+                <header id="header">
+                    <h1 id="contact">Contact me</h1>
+                    <hr>
+                    <form name="test-form" netlify>
+                        Full name<span>*</span> <br><input type="text" name="full_name" required><br>
+                        e-mail<span>*</span> <br><input type="email" name="e-mail" required><br>
+                        Number<br><input type="tel" name="num_tele"><br>
+                        Subject<span>*</span> <br><input type="text" name="subject" required><br>
+                        Message<span>*</span> <br><textarea rows = "5" cols = "50" name = "message" id="textarea" required></textarea><br>
+                        <p>Fields with a <span>*</span> are required</p>
+                        <button value="Submit" class="icon solid fa-envelope">Submit</button>
+                    </form>
+                </header>
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>

@@ -1,19 +1,44 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 	<head>
-		<title>My project</title>
-		<link rel="stylesheet" href="files/css/index.css">
+		<title>Welcome to my website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body>
-		<ul>	
-			<li><a href="index.html" class="active">Home</a></li>
-			<li><a href="form.html">Contact</a></li>
-			<li><a href="about.html">About</a></li>
-		</ul>
-		<br>
-		<br>
-		<hr>
-		<h1>Welcome to my new website</h1>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Mohamed El Haddati</h1>
+						<p>Web Developper &nbsp;&bull;&nbsp; Gamer &nbsp;&bull;&nbsp; Artist</p>
+						<nav>
+							<ul>
+								<li><a href="https://www.youtube.com/channel/UC1dJyZRPbbyEP2ykYtRhPhg" class="icon brands fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+								<li><a href="https://www.paypal.com/paypalme/Mou518/10" class="icon brands fa-paypal" target="_blank"><span class="label">Paypal</span></a></li>
+								<li><a href="https://steamcommunity.com/id/Fester_HD" class="icon brands fa-steam" target="_blank"><span class="label">Steam</span></a></li>
+								<li><a href="https://github.com/Festerr" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+								<li><a href="newform.html" class="icon solid fa-envelope"><span class="label" target="_blank">Contact</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Untitled.</span>
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
 	</body>
 </html>
-
