@@ -13,8 +13,9 @@
 			<div id="overlay"></div>
 			<div id="main">
                 <header id="header">
+					<a style="display: flex; align-items: start;" href="index.html" class="icon solid fa-reply " id="back"><span class="label">Contact</span></a>
                     <h1 id="contact">Contact me</h1>
-                    <hr>
+					<br>	
                     <form name="test-form" netlify>
                         Full name<span>*</span> <br><input type="text" name="full_name" required><br>
                         e-mail<span>*</span> <br><input type="email" name="e-mail" required><br>
@@ -22,7 +23,7 @@
                         Subject<span>*</span> <br><input type="text" name="subject" required><br>
                         Message<span>*</span> <br><textarea rows = "5" cols = "50" name = "message" id="textarea" required></textarea><br>
                         <p>Fields with a <span>*</span> are required</p>
-                        <button value="Submit" class="icon solid fa-envelope">Submit</button>
+                        <button value="Submit" type="button" class="icon solid fa-envelope">Submit</button>
                     </form>
                 </header>
 			</div>
