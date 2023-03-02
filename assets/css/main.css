@@ -1,26 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
-/*
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 #back{
 	text-decoration: none;
 }
 
 input {
-	background-color: transparent;
+	background-color: #348cb2;
 	border-color: blue;
 	border-style: dotted;
 	border-radius: 5%;
 
 }
 
+#italic{
+	font-style: italic;
+	color:grey;
+}
+
 #textarea{
-	background-color: transparent;
+	background-color:#348cb2;
+	opacity: 0.5;
 	border-color: blue;
 	border-radius: 3%;
 	resize: none;
